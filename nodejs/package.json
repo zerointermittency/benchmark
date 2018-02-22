@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-benchmark",
+  "version": "1.0.0",
+  "description": "pruebas de rendimiento para las distintas funcionalidades y formas de hacer las cosas",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint . --ext '.js'"
+  },
+  "engines": ">=8.9.0",
+  "homepage": "https://github.com/zerointermittency/benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerointermittency/benchmark"
+  },
+  "bugs": {
+    "url": "https://github.com/zerointermittency/benchmark/issues"
+  },
+  "private": true,
+  "dependencies": {
+    "@zerointermittency/eslint-config-zi": "^1.0.2",
+    "benchmark": "^2.1.4",
+    "eslint": "^4.18.1",
+    "lodash": "^4.17.5"
+  }
+}
