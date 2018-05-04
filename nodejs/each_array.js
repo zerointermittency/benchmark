@@ -12,7 +12,6 @@ const Benchmark = require('benchmark'),
         {_externalId: '8', order: {number: '8'}},
     ];
 
-// process.exit();
 (new Benchmark.Suite)
     .add('_.each', () => _.each(docs, doc => doc))
     .add('forEach', () => docs.forEach(doc => doc))
